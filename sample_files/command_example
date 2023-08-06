@@ -1,0 +1,15 @@
+Command -
+./text_ana inputs/valid_inputs/originalfile.as inputs/valid_inputs/with_comments.as inputs/wronginputs/multiple_errors.as inputs/wronginputs/unknown_command_bbb.as inputs/wronginputs/wrong_add.as
+
+Output -
+Starting compliation of file "inputs/valid_inputs/originalfile.as" 
+Complication of file "inputs/valid_inputs/originalfile.as" finished successfully
+Starting compliation of file "inputs/valid_inputs/with_comments.as" 
+Complication of file "inputs/valid_inputs/with_comments.as" finished successfully
+Starting compliation of file "inputs/wronginputs/multiple_errors.as" 
+Error in line 4: Instruction (function) name is not valid
+Error in line 26: Missing destination operand
+Starting compliation of file "inputs/wronginputs/unknown_command_bbb.as" 
+Error in line 4: Instruction (function) name is not valid
+Starting compliation of file "inputs/wronginputs/wrong_add.as" 
+Error in line 4: Missing destination operand
